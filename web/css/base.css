@@ -1,0 +1,82 @@
+#header, #page, #footer {
+	border-color: #2AB190;
+}
+
+#footer { font-size: 12px; }
+#footer a { color: #369084; text-decoration: none; }
+
+.contentwrapper {
+	border: 1px solid #D9F0E8;
+	padding: 10px;
+	margin-top: -1px;
+}
+
+#content .web-header { 
+	font-size: 16px;
+	padding: 5px;
+	background: none repeat scroll 0 0 #F3FFFD;
+	border: 1px solid #D9F0E8;
+	color: #369084;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+
+h6.menu {
+	background-color: #ECF8E2;
+	padding: 5px 10px;
+	border-left: 1px solid #D9F0E8;
+	border-right: 1px solid #D9F0E8;
+	min-height: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+#content .menu a {
+	margin-right: 20px;
+}
+
+#content .menu a#delete-group {
+	margin: 0px;
+	float: right;
+	display: none;
+}
+
+#content .menu a img.menu-icon {
+	width: 16px;
+	height: 16px;
+}
+
+.grid-view .column-name {
+	width: 200px;
+}
+
+.grid-view .column-name-150 {
+	width: 150px;
+}
+
+.grid-view .column-name-100 {
+	width: 100px;
+}
+
+.grid-view .column-status {
+	width: 80px;
+	text-align: center;
+}
+
+.grid-view .column-no {
+	width: 40px;
+	text-align: center;
+}
+
+.grid-view .column-time {
+	width: 130px;
+}
+
+.grid-view .column-number-50 {
+	width: 50px;
+}
