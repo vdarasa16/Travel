@@ -77,7 +77,7 @@ class MUser extends CActiveRecord
 	{
 		return array(
 			'userid' => 'Userid',
-			'usercode' => 'Usercode',
+			'usercode' => Yii::t('user', 'usercode'),
 			'username' => 'Username',
 			'password' => 'Password',
 			'createdate' => 'Createdate',

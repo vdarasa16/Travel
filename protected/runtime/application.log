@@ -586,3 +586,14 @@ REQUEST_URI=/scorpion/index.php?r=site/test
 ---
 2013/08/01 23:22:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'default.d_group_permission' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `d_group_permission`.
 in E:\Server\wwwroot\scorpion\index.php (16)
+2014/06/07 10:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adduser".' in E:\Server\wwwroot\Travel\framework\web\CController.php:483
+Stack trace:
+#0 E:\Server\wwwroot\Travel\framework\web\CController.php(270): CController->missingAction('adduser')
+#1 E:\Server\wwwroot\Travel\framework\web\CWebApplication.php(282): CController->run('adduser')
+#2 E:\Server\wwwroot\Travel\framework\web\CWebApplication.php(141): CWebApplication->runController('user/adduser')
+#3 E:\Server\wwwroot\Travel\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\Server\wwwroot\Travel\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/travel/index.php?r=user/adduser
+HTTP_REFERER=http://localhost/travel/index.php?r=user/manageuser
+---

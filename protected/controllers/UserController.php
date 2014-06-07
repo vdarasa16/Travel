@@ -32,10 +32,11 @@ class UserController extends PrivateController
 	
 	public function actionManageUser()
 	{
+		$fsfsdf;
 		$bUser = new UserManager($this);
 		$user = $bUser->getById();
 		$user->scenario = 'search';
-
+		
 		$criteria = array();
 		if (isset($_REQUEST[get_class($user)]))
 			$criteria = $_REQUEST[get_class($user)];
